@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "How to Get GitHub Access",
+    "category": "Development",
+    "content": "Raise a request to the IT team. Once approved, accept the GitHub invite and clone the repository."
+  },
+  {
+    "id": 2,
+    "title": "How to Setup Project Environment",
+    "category": "IT Support",
+    "content": "Install Node.js, clone the project repository, run npm install, and start the server."
+  },
+  {
+    "id": 1768577289146,
+    "title": "Employee Leave Policy Overview",
+    "category": "HR",
+    "department": "HR",
+    "priority": "Low",
+    "author": "HR Team",
+    "tags": [
+      "leave",
+      "policy",
+      "hr"
+    ],
+    "content": "Employees are entitled to casual, sick, and earned leave.\nLeave requests must be submitted through the HR portal.\nApproval depends on manager confirmation.\n",
+    "createdAt": "2026-01-16T15:28:09.146Z"
+  }
+]
