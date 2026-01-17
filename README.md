@@ -1,4 +1,4 @@
-# SmartServe – AI-Powered Customer Support Web App (MVP)
+# SmartServe – IT Service Knowledge Base (MVP)
 
 ## Team Name
 **PNP INNVOEX**
@@ -10,30 +10,38 @@ Organized by Chand Web Technology Pvt Ltd
 ---
 
 ## Problem Statement
-Small and medium businesses often struggle to respond to customer queries on time due to limited staff and multiple communication channels. This leads to delayed responses, poor customer experience, and loss of potential customers.
+In many organizations, IT-related knowledge such as setup guides, access procedures, HR policies, and troubleshooting steps are scattered across emails, chats, and documents. Employees frequently depend on IT teams for repetitive issues, leading to increased workload and reduced productivity.
 
 ---
 
 ## Proposed Solution
-**SmartServe** is a web-based application that helps businesses automate customer support using AI-powered auto-replies.  
-It provides instant responses to common customer queries and helps businesses manage interactions efficiently from a single platform.
+**SmartServe** is a web-based IT Service Knowledge Base that centralizes company-specific knowledge.
+Admins can add and manage structured IT, HR, and development-related articles, while employees can quickly search and access solutions through a clean interface.
 
 ---
 
 ## Key Features
-- Customer query submission through a web interface
-- AI-based automated responses (rule-based / API-based)
-- Simple and clean user interface
-- Admin dashboard to view customer queries
-- Cloud-ready and scalable architecture
+- Admin panel to add and manage knowledge articles
 
+- Structured data entry (category, department, priority, author, tags)
+
+- Knowledge listing with search functionality
+
+- Detailed article view page
+
+- Backend APIs for data persistence
+
+- Simple, clean, and user-friendly UI
 ---
 
 ## Target Users
-- Small & Medium Businesses (SMBs)
-- Retail shops
-- Service-based businesses
-- Startups and local enterprises
+-IT Support Teams
+
+Employees within an organization
+
+HR & Operations Teams
+
+Small & Medium Enterprises (SMEs)
 
 ---
 
@@ -41,10 +49,10 @@ It provides instant responses to common customer queries and helps businesses ma
 **Frontend:**
 - HTML
 - CSS
-- JavaScript / React (planned)
+- JavaScript 
 
 **Backend:**
-- Node.js / Spring Boot (planned)
+- Node.js 
 
 **Database:**
 - MySQL / MongoDB (planned)
@@ -56,40 +64,53 @@ It provides instant responses to common customer queries and helps businesses ma
 ---
 
 ## System Architecture (High Level)
-1. User submits a query via the web app  
-2. Backend processes the request  
-3. AI logic generates an automated response  
-4. Response is displayed to the user  
-5. Data is stored for admin review  
+1. Admin adds knowledge articles via the admin panel
+
+2. Backend REST APIs process and store the data
+
+3. Employees access the knowledge base through the web interface
+
+4. Articles are retrieved dynamically from the backend
+
+5. Employees search and view detailed solutions 
 
 ---
 
 ## Innovation & Uniqueness
-- Automates customer support for small businesses
-- Reduces manual workload and response time
-- Easy-to-use solution for non-technical users
-- Cost-effective alternative to complex CRM systems
+- Centralized internal knowledge system
+
+Reduces repetitive IT support requests
+
+Improves employee productivity
+
+Easy to scale for enterprise use
+
+Practical solution for real-world IT operations
 
 ---
 
 ## Future Scope
-- Voice-based AI assistant
-- Multi-language support
-- WhatsApp and Email integration
-- Mobile application (Android & iOS)
-- Advanced analytics dashboard
+Role-based authentication (Admin / Employee)
+
+Database integration (MongoDB / MySQL)
+
+AI-powered intelligent search
+
+Analytics dashboard for usage insights
+
+Integration with internal company tools
 
 ---
 
 ## Project Status
-This project is currently developed as a **Minimum Viable Product (MVP)** for the HackForge 2.0 hackathon.
+This project is developed as a Minimum Viable Product (MVP) for the HackForge 2.0 Hackathon, demonstrating a practical and scalable IT service solution.
 
 ---
 
 ## Team Members
-- Prannesh NK  
-- Team Member 2  
-- Team Member 3  
+- NITHIS KUMAAR M B  
+- POOVARASU K  
+- PRANNESH N K 
 
 ---
 
@@ -99,4 +120,4 @@ https://github.com/nkprannesh12/SmartServe
 ---
 
 ## Conclusion
-SmartServe demonstrates a practical and scalable IT solution that leverages automation and AI to solve real-world business problems, aligned with modern digital transformation goals.
+SmartServe provides a centralized and efficient way to manage internal IT knowledge, reducing dependency on IT teams and enabling faster issue resolution. It is a practical, scalable, and enterprise-ready solution aligned with modern organizational needs.
