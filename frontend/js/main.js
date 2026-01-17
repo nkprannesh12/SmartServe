@@ -1,9 +1,9 @@
 const API = "http://localhost:5000/api/knowledge";
 let allKnowledge = [];
 
-/* =========================
+/* 
    KNOWLEDGE LIST PAGE
-   ========================= */
+    */
 if (window.location.pathname.includes("knowledge.html")) {
 
   fetch(API)
@@ -56,9 +56,9 @@ if (window.location.pathname.includes("knowledge.html")) {
   window.searchKnowledge = searchKnowledge;
 }
 
-/* =========================
+/* 
    ARTICLE DETAILS PAGE
-   ========================= */
+    */
 if (window.location.pathname.includes("article.html")) {
 
   const titleEl = document.getElementById("articleTitle");

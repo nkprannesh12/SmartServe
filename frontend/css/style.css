@@ -1,6 +1,6 @@
-/* =====================
+/* 
    GLOBAL STYLES
-===================== */
+ */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   background: linear-gradient(135deg, #eef2f7, #f8f9fb);
@@ -9,9 +9,9 @@ body {
   color: #333;
 }
 
-/* =====================
+/* 
    HOME PAGE
-===================== */
+ */
 .main-container {
   width: 520px;
   margin: 120px auto;
@@ -59,9 +59,9 @@ body {
   background-color: #6c757d;
 }
 
-/* =====================
+/* 
    COMMON PAGE CONTAINER
-===================== */
+ */
 .page-container {
   max-width: 900px;
   margin: 70px auto;
@@ -77,9 +77,9 @@ body {
   color: #2c3e50;
 }
 
-/* =====================
+/* 
    KNOWLEDGE LIST
-===================== */
+ */
 #searchInput {
   width: 100%;
   padding: 12px;
@@ -124,18 +124,18 @@ body {
   margin-bottom: 10px;
 }
 
-/* =====================
+/* 
    ARTICLE PAGE
-===================== */
+ */
 .article-content {
   margin-top: 15px;
   line-height: 1.7;
   font-size: 15px;
 }
 
-/* =====================
+/* 
    ADMIN PAGE (FIXED)
-===================== */
+ */
 .form-page {
   max-width: 520px;
 }
@@ -177,9 +177,9 @@ body {
   resize: vertical;
 }
 
-/* =====================
+/* 
    BUTTONS
-===================== */
+ */
 button {
   width: 100%;
   margin-top: 10px;
@@ -196,9 +196,9 @@ button:hover {
   background-color: #1f66c1;
 }
 
-/* =====================
+/* 
    BACK LINK
-===================== */
+ */
 .back-link {
   display: block;
   margin-top: 22px;
